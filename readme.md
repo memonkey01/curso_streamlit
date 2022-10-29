@@ -95,7 +95,7 @@ Ya que tengas instalados todos los requerimientos necesarios puedes seguir los s
    ```
 2. Crea tu ambiente
    ```sh
-   conda create 
+    conda env create -n streamlit --file environment.yml
    ```
 
 
@@ -106,7 +106,7 @@ Una vez descargado puedes correr las aplicaciones de ejemplo para revisar el fun
 
 
    ```sh
-   streamlit run alguna_app.py
+   streamlit run demo_stramlit.py
    ```
    
 
@@ -127,7 +127,7 @@ Para contribuir en el proyecto debes de realizar los siguientes pasos para que t
 
 Guillermo Izquierdo - [@cryptomonkey01](https://twitter.com/cryptomonkey01) - info@pypro.mx
 
-Project Link: [https://github.com/memonkey01/trading_bot_pypro](https://github.com/memonkey01/trading_bot_pypro)
+Project Link: [https://github.com/memonkey01/curso_streamlit](https://github.com/memonkey01/curso_streamlit)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

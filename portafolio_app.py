@@ -102,7 +102,7 @@ def plot_prophet(data, forecast):
 
     future = m.make_future_dataframe(periods=365)
     forecast = m.predict(future)
-
+    print(forecast.columns)
     fig1 = m.plot(forecast)
     background = plt.imread('assets/logo_source.png')
     mplcyberpunk.add_glow_effects()
@@ -114,6 +114,7 @@ def plot_prophet(data, forecast):
     plt.grid(True,color='gray', linestyle='-', linewidth=0.4)
     plt.xticks(rotation=45,  ha='right')
     plt.ylabel('Precio de Cierre')
+    plt.plot(forecast.ds, forecast.yhat, color='darkorange', linewidth=0.5)
     return fig1
 
 
