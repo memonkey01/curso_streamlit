@@ -56,6 +56,7 @@ El curso esta diseñado para aprender a usar Streamlit y revisar otras librearia
 
 - Demo
 - Portafolio App
+- GPT App
 - Web Scrapping App (pendiente)
 
 
@@ -69,6 +70,8 @@ El curso esta diseñado para aprender a usar Streamlit y revisar otras librearia
 * Matplotlib
 * Prophet
 * Pandas Data Reader
+* Transformers
+
 
 
 
