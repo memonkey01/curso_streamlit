@@ -3,10 +3,6 @@ import pandas as pd
 import plotly.express as px
 
 
-
-
-
-
 #Leer datos
 df_origin = pd.read_csv('data/fifa_23_players.csv')
 
