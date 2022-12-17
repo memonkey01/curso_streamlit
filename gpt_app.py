@@ -49,7 +49,7 @@ prompt_en = translator_es_en(prompt_es)
 
 
 # Generar texto con el prompt en ingles
-results = generator(prompt_en[0]['translation_text'], do_sample=True, max_length=256, temperature=0.95)
+results = generator(prompt_en[0]['translation_text'], do_sample=True, max_length=256, temperature=1.2)
 gen_text_en = results[0]['generated_text']
 
 
